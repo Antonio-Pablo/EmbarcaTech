@@ -6,10 +6,10 @@
 #define BUZZER_PIN 4  // Pino do buzzer
 
 int main() {
-    stdio_init_all(); // Inicializa a comunicação USB/UART
+    stdio_init_all(); /
 
-    // Configura os pinos
-    gpio_init(PIR_PIN);
+    
+    gpio_init(PIR_PIN); // Configura os pinos
     gpio_set_dir(PIR_PIN, GPIO_IN); // Pino do PIR como entrada
     gpio_init(BUZZER_PIN);
     gpio_set_dir(BUZZER_PIN, GPIO_OUT); // Pino do buzzer como saída
