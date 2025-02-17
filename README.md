@@ -13,3 +13,7 @@ O código faz o seguinte:
 3-Quando o sensor detecta movimento, o buzzer é ativado por 1 segundo.
 
 4-O loop principal repete a verificação a cada 100 ms.
+
+Feita por:
+<br/>
+[Antonio Pablo Isaías Gonçalves da Silva.](https://github.com/Antonio-Pablo)
